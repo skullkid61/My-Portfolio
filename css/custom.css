@@ -1,7 +1,7 @@
 body {
   font-family: 'Titillium Web', sans-serif;
-  background: url(../images/beautiful-bicycle-building-crop.jpg) fixed !important;
-	background-size: cover !important;
+  background: url(../images/beautiful-bicycle-building-mobile.jpg) fixed !important;
+	background-size: fixed !important;
 }
 
 .mask {
@@ -128,6 +128,15 @@ h2,
   background: none;
   height: 91vh;
 }
+
+@media screen and (min-width: 500px) {
+  body {
+    background: url(../images/beautiful-bicycle-building-crop.jpg) fixed !important;
+	  background-size: cover !important;
+  }
+}
+
+
 
 @media screen and (min-width: 768px) {
   .jumbotron {
