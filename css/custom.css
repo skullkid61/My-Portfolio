@@ -1,5 +1,6 @@
 body {
   font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(23,42,54);
   background: url(../images/beautiful-bicycle-building-mobile.jpg) fixed !important;
 	background-size: fixed !important;
 }
