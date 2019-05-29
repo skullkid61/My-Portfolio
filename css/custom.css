@@ -1,0 +1,142 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: url(../images/beautiful-bicycle-building-crop.jpg) fixed !important;
+	background-size: cover !important;
+}
+
+.mask {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, 
+    rgba(0,0,0,0) 0%, 
+    rgba(23,42,54,0.6) 3%, 
+    rgba(23,42,54,0.6) 98%, 
+    rgba(0,0,0,0) 100%);
+}
+
+.card {
+  border: none;
+}
+
+.bg-dark {
+	background-color: #222222 !important;
+}
+
+.bg-shade {
+  background: rgb(23,42,54);
+  background: linear-gradient(180deg, 
+    rgba(23,42,54,0.9) 0%, 
+    rgba(23,42,54,0) 100%);
+}
+
+/* Second navbar overlay for gradient transition */
+.nav-bar-two {
+  background: linear-gradient(180deg, 
+    rgba(23,42,54,1) 0%,
+    rgba(18, 32, 41, 0.9) 50%, 
+    rgba(18, 32, 41,0.8) 90%,
+    rgba(0,0,0,0) 100%);
+  opacity: 0;
+  transition: opacity .2s ease-in;
+  z-index: 1;
+}
+
+.bg-shade-dark {
+  background: linear-gradient(180deg, 
+    rgba(23,42,54,1) 0%, 
+    rgba(18, 32, 41, 0.9) 50%, 
+    rgba(18, 32, 41,0.8) 85%,
+    rgba(0,0,0,0) 100%);
+  opacity: 1;
+  transition: opacity .2s ease-in;
+}
+
+/* Playing with gradients */
+
+/* .nav-wrapper {
+  position: relative;
+  min-height: 100px;
+  background-image: linear-gradient(180deg, 
+    rgba(23,42,54,0.9) 0%, 
+    rgba(23,42,54,0) 100%
+  );
+  z-index: 1;
+}
+
+.nav-bar::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(180deg, 
+    rgba(23,42,54,1) 0%, 
+    rgba(18, 32, 41, 0.9) 50%, 
+    rgba(18, 32, 41,0.8) 90%,
+    rgba(0,0,0,0) 100%)
+  ;
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.bg-shade-dark::before {
+  background: linear-gradient(180deg, 
+    rgba(23,42,54,1) 0%, 
+    rgba(18, 32, 41, 0.9) 50%, 
+    rgba(18, 32, 41,0.8) 90%,
+    rgba(0,0,0,0) 100%
+  );
+  opacity: 1;
+} */
+
+/* end transition */
+
+h2,
+.nav-item {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.fixed-top {
+  transition: .6s ease-in-out;
+}
+
+.shrink-nav {
+  top: -220px;
+  transition: 1.2s ease-in-out;
+}
+
+.flare {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.glow {
+  text-shadow: 
+    0 0 15px rgba(255,255,255,.5), 
+    0 0 10px rgba(255,255,255,.5);
+}
+
+.btn:hover {
+  text-shadow: 
+    0 0 15px rgba(255,255,255,.5), 
+    0 0 10px rgba(255,255,255,.5);
+}
+
+.jumbotron {
+  background: none;
+  height: 91vh;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shrink-nav {
+    top: 0;
+  }
+}
