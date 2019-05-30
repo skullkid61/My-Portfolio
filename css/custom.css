@@ -9,7 +9,7 @@ body {
   background: rgb(0,0,0);
   background: linear-gradient(180deg, 
     rgba(0,0,0,0) 0%, 
-    rgba(23,42,54,0.6) 3%, 
+    rgba(23,42,54,0.6) 2%, 
     rgba(23,42,54,0.6) 98%, 
     rgba(0,0,0,0) 100%);
 }
@@ -27,6 +27,10 @@ body {
   background: linear-gradient(180deg, 
     rgba(23,42,54,0.9) 0%, 
     rgba(23,42,54,0) 100%);
+}
+
+.collapse {
+  justify-content: flex-end;
 }
 
 /* Second navbar overlay for gradient transition */
