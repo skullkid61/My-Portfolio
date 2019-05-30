@@ -1,6 +1,6 @@
 body {
   font-family: 'Titillium Web', sans-serif;
-  background-color: rgba(23,42,54);
+  background-color: #000000;
   background: url(../images/beautiful-bicycle-building-mobile.jpg) fixed !important;
 	background-size: fixed !important;
 }
@@ -99,14 +99,16 @@ h2,
 	text-transform: uppercase;
 }
 
-.fixed-top {
+/* Nav grow/shrink properties */
+
+/* .fixed-top {
   transition: .6s ease-in-out;
 }
 
 .shrink-nav {
   top: -220px;
   transition: 1.2s ease-in-out;
-}
+} */
 
 .flare {
 	font-weight: 900;
@@ -127,7 +129,7 @@ h2,
 
 .jumbotron {
   background: none;
-  height: 91vh;
+  height: 93vh;
 }
 
 @media screen and (min-width: 500px) {
@@ -135,16 +137,13 @@ h2,
     background: url(../images/beautiful-bicycle-building-crop.jpg) fixed !important;
 	  background-size: cover !important;
   }
-}
-
-@media screen and (min-width: 768px) {
   .jumbotron {
     height: auto;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .shrink-nav {
-    top: 0;
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    height: auto;
   }
 }
