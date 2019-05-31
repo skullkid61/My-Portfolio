@@ -16,6 +16,17 @@ body {
 
 .card {
   border: none;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: 2s;
+}
+
+.card-img-top:hover {
+  overflow: hidden;
+  transform: scale(1.05);
+  transition: 3s;
 }
 
 .bg-dark {
