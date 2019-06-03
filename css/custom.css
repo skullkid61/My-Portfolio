@@ -21,13 +21,14 @@ body {
 }
 
 .card-img-top {
+  opacity: 1;
   transition: 2s;
 }
 
 .card-img-top:hover {
   overflow: hidden;
-  transform: scale(1.05);
-  transition: 3s;
+  opacity: 1;
+  transition: .8s;
 }
 
 .bg-dark {
@@ -95,7 +96,41 @@ h2,
   height: 93vh;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contact-icon {
+  width: 120px;
+  padding: 0 20px;
+  opacity: .7;
+  transition: .4s;
+}
+
+.contact-icon:hover {
+  opacity: 1;
+  transition: .7s;
+}
+
+.twitter {
+  padding-top: 4px;
+}
+
 /* SVG images */
+
+.skills div {
+  opacity: 1;
+  transition: .4s;
+}
+
+.skills div:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: .7s;
+}
 
 .st2 {
   fill: #EBEBEB;
@@ -113,10 +148,15 @@ h2,
   .jumbotron {
     height: auto;
   }
+  .card-img-top {
+    opacity: .8;
+  }
+  .skills div {
+    opacity: .8;
+  }
   .jquery {
     padding-top: 80px !important;
   }
-  
   .bootstrap {
     padding-top: 75px !important;
   }
