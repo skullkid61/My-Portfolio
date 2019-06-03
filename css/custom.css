@@ -2,14 +2,14 @@ body {
   font-family: 'Titillium Web', sans-serif;
   background-color: #000000;
   background: url(../images/beautiful-bicycle-building-mobile.jpg) fixed !important;
-	background-size: fixed !important;
+  background-size: cover !important;
 }
 
 .mask {
   background: rgb(0,0,0);
   background: linear-gradient(180deg, 
     rgba(0,0,0,0) 0%, 
-    rgba(23,42,54,0.6) 2%, 
+    rgba(23,42,54,0.6) 1.5%, 
     rgba(23,42,54,0.6) 98%, 
     rgba(0,0,0,0) 100%);
 }
@@ -66,64 +66,11 @@ body {
   transition: opacity .2s ease-in;
 }
 
-/* Playing with gradients */
-
-/* .nav-wrapper {
-  position: relative;
-  min-height: 100px;
-  background-image: linear-gradient(180deg, 
-    rgba(23,42,54,0.9) 0%, 
-    rgba(23,42,54,0) 100%
-  );
-  z-index: 1;
-}
-
-.nav-bar::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(180deg, 
-    rgba(23,42,54,1) 0%, 
-    rgba(18, 32, 41, 0.9) 50%, 
-    rgba(18, 32, 41,0.8) 90%,
-    rgba(0,0,0,0) 100%)
-  ;
-  z-index: -1;
-  transition: opacity 0.5s linear;
-  opacity: 0;
-}
-
-.bg-shade-dark::before {
-  background: linear-gradient(180deg, 
-    rgba(23,42,54,1) 0%, 
-    rgba(18, 32, 41, 0.9) 50%, 
-    rgba(18, 32, 41,0.8) 90%,
-    rgba(0,0,0,0) 100%
-  );
-  opacity: 1;
-} */
-
-/* end transition */
-
 h2,
 .nav-item {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-
-/* Nav grow/shrink properties */
-
-/* .fixed-top {
-  transition: .6s ease-in-out;
-}
-
-.shrink-nav {
-  top: -220px;
-  transition: 1.2s ease-in-out;
-} */
 
 .flare {
 	font-weight: 900;
@@ -147,6 +94,16 @@ h2,
   height: 93vh;
 }
 
+/* SVG images */
+
+.st2 {
+  fill: #EBEBEB;
+}
+
+.st3 {
+  fill: #ffffff;
+}
+
 @media screen and (min-width: 500px) {
   body {
     background: url(../images/beautiful-bicycle-building-crop.jpg) fixed !important;
@@ -155,10 +112,52 @@ h2,
   .jumbotron {
     height: auto;
   }
+  .jquery {
+    padding-top: 80px !important;
+  }
+  
+  .bootstrap {
+    padding-top: 75px !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .jumbotron {
     height: auto;
+  }
+  .javascript {
+    padding-top: 40px !important;
+  }
+  .svg {
+    margin-left: -10px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jquery {
+    padding-top: 120px !important;
+  }
+  .bootstrap {
+    padding-top: 110px !important;
+  }
+  .javascript {
+    padding-top: 60px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jquery {
+    padding-top: 60px !important;
+  }
+  .bootstrap {
+    padding-top: 55px !important;
+    padding-right: 0px !important;
+  }
+  .javascript {
+    padding-top: 30px !important;
+  }
+  .svg {
+    padding-left: 35px !important;
+    margin-left: -10px !important;
   }
 }

@@ -8,7 +8,7 @@ $(document).ready(function(){
     } else {
       $(".nav-bar-two").removeClass("bg-shade-dark");  	
     }
-  })
+  });
 });
 
 // Smooth anchor scrolling + offset landing
@@ -27,4 +27,4 @@ window.onscroll = function() {
   if (navDropButton.attr('aria-expanded') === 'true') {
     navDropButton.trigger('click');
   }
-}
+};
