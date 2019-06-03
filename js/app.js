@@ -5,8 +5,9 @@ $(document).ready(function(){
     var scroll = $(window).scrollTop();
     if (scroll > 90) {
       $(".nav-bar-two").addClass("bg-shade-dark");
+      $(".scroll-down").hide();
     } else {
-      $(".nav-bar-two").removeClass("bg-shade-dark");  	
+      $(".nav-bar-two").removeClass("bg-shade-dark");
     }
   });
 });
