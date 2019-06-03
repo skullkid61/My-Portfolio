@@ -121,17 +121,6 @@ h2,
 
 /* SVG images */
 
-.skills div {
-  opacity: 1;
-  transition: .4s;
-}
-
-.skills div:hover {
-  opacity: 1;
-  transform: scale(1.1);
-  transition: .7s;
-}
-
 .st2 {
   fill: #EBEBEB;
 }
@@ -149,6 +138,12 @@ h2,
   }
   .skills div {
     opacity: .8;
+    transition: .4s;
+  }
+  .skills div:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: .7s;
   }
   .jquery {
     padding-top: 80px !important;
