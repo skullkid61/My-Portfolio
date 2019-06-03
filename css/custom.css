@@ -9,8 +9,8 @@ body {
   background: rgb(0,0,0);
   background: linear-gradient(180deg, 
     rgba(0,0,0,0) 0%, 
-    rgba(23,42,54,0.6) 1.5%, 
-    rgba(23,42,54,0.6) 98%, 
+    rgba(23,42,54,0.25) 2%,
+    rgba(23,42,54,0.25) 98%, 
     rgba(0,0,0,0) 100%);
 }
 
@@ -222,6 +222,11 @@ h2,
   }
   .javascript {
     padding-top: 60px !important;
+  }
+  #about,
+  #skills,
+  #projects {
+    text-align: left !important;
   }
 }
 
