@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dacehoward.com
+Token: 51bffe2c146065a0f969e9afec93ce1c6a492ab0f84337d40397b42a58238d2c
